@@ -1,6 +1,6 @@
 {
   "name": "ember-currencies-and-format-money",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "list of currencies and format given money amount according to the currency.",
   "keywords": [
     "ember-addon"
