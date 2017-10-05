@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-currencies',
+  name: 'ember-currencies-and-format-money',
   isDevelopingAddon : function(){
     return true;
   },

@@ -38,5 +38,5 @@ export function formatMoneyAmountByCurrency(amount, currencyValue, currencyHidde
   let symbol = currency.symbol;
   let smallestUnitRatio = currency.smallestUnitRatio;
 
-  return formatMoneyAmount(valueToCompareWith, digitSeparator, decimalSeparator, currencyPlacement, symbol, smallestUnitRatio, false);
+  return formatMoneyAmount(amount, digitSeparator, decimalSeparator, currencyPlacement, symbol, smallestUnitRatio, false);
 }
