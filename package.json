@@ -1,6 +1,6 @@
 {
-  "name": "ember-currencies",
-  "version": "0.1.0",
+  "name": "ember-currencies-and-format-money",
+  "version": "0.2.0",
   "description": "list of currencies and format given money amount according to the currency.",
   "keywords": [
     "ember-addon"
@@ -11,7 +11,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/ahmetemrekilinc/ember-currencies.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
