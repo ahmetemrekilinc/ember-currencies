@@ -1,5 +1,6 @@
-import {currenciesObject} from './currencies';
-import Ember from 'ember';
+import { assert } from '@ember/debug';
+import { isBlank } from '@ember/utils';
+import { currenciesObject } from './currencies';
 
 export function formatMoneyAmount(amount, digitSeparator, decimalSeparator, currencyPlacement, symbol, smallestUnitRatio, currencyHidden){
 
@@ -7,9 +8,9 @@ export function formatMoneyAmount(amount, digitSeparator, decimalSeparator, curr
   let powerOfTen = Math.log(smallestUnitRatio) * Math.LOG10E;
 
   amountFinal = amountFinal.toLocaleString("en-US", {minimumFractionDigits: powerOfTen});
-  amountFinal = amountFinal.replace(".", "_");
-  amountFinal = amountFinal.replace(",", digitSeparator);
-  amountFinal = amountFinal.replace("_", decimalSeparator);
+  amountFinal = amountFinal.replace(/\./g, "_");
+  amountFinal = amountFinal.replace(/\,/g, digitSeparator);
+  amountFinal = amountFinal.replace(/_/g, decimalSeparator);
   let result = "";
 
   if(currencyHidden){
@@ -28,8 +29,8 @@ export function formatMoneyAmountByCurrency(amount, currencyValue, currencyHidde
 
   let currency = currenciesObject[currencyValue];
 
-  if(Ember.isBlank(currency)){
-      Ember.assert("undefined currency : " + currencyValue);
+  if(isBlank(currency)){
+      assert("undefined currency : " + currencyValue);
   }
 
   let currencyPlacement = currency.currencyPlacement;
