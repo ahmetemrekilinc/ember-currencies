@@ -1,13 +1,13 @@
 {
   "name": "ember-currencies-and-format-money",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "list of currencies and format given money amount according to the currency.",
   "keywords": [
     "ember-addon"
   ],
   "repository": "https://github.com/ahmetemrekilinc/ember-currencies.git",
   "license": "MIT",
-  "author": "",
+  "author": "ahmetemrekilinc",
   "directories": {
     "doc": "doc",
     "test": "tests"
