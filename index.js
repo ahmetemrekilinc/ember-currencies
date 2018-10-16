@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-currencies-and-format-money',
+  name: require('./package').name,
 
   isDevelopingAddon : function(){
     return true;
