@@ -1,6 +1,13 @@
 ember-currencies-and-format-money
 ==============================================================================
 
+[![npm version](https://badge.fury.io/js/ember-currencies-and-format-money.svg)](https://badge.fury.io/js/ember-currencies-and-format-money.svg)
+[![Build Status](https://travis-ci.org/ahmetemrekilinc/ember-currencies.svg?branch=master)](https://travis-ci.org/ahmetemrekilinc/ember-currencies.svg?branch=master)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-currencies-and-format-money.svg)](https://emberobserver.com/badges/ember-currencies-and-format-money.svg)
+[![Dependency Status](https://david-dm.org/ahmetemrekilinc/ember-currencies.svg)](https://david-dm.org/ahmetemrekilinc/ember-currencies.svg)
+[![devDependency Status](https://david-dm.org/ahmetemrekilinc/ember-currencies/dev-status.svg)](https://david-dm.org/ahmetemrekilinc/ember-currencies/dev-status.svg)
+[![Code Climate](https://codeclimate.com/github/ahmetemrekilinc/ember-currencies/badges/gpa.svg)](https://codeclimate.com/github/ahmetemrekilinc/ember-currencies/badges/gpa.svg)
+
 ember-currencies-and-format-money is an addon that enables you format money amounts in your Ember.js application.
 
 Installation
