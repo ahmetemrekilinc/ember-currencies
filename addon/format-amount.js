@@ -9,7 +9,7 @@ export function formatMoneyAmount(amount, digitSeparator, decimalSeparator, curr
 
   amountFinal = amountFinal.toLocaleString("en-US", {minimumFractionDigits: powerOfTen});
   amountFinal = amountFinal.replace(/\./g, "_");
-  amountFinal = amountFinal.replace(/\,/g, digitSeparator);
+  amountFinal = amountFinal.replace(/,/g, digitSeparator);
   amountFinal = amountFinal.replace(/_/g, decimalSeparator);
   let result = "";
 
