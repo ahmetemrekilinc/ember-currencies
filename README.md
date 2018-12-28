@@ -20,6 +20,15 @@ ember install ember-currencies-and-format-money
 
 Usage
 ------------------------------------------------------------------------------
+You can use `format-money` helper in your `hbs` files by passing a parameter money object with attributes `amount` and `currency`. If `currency` is not set, then `TRY` is default currency.
+```hbs
+{{format-money (hash amount=1000 currency='USD') }}
+```
+
+By default currency is visible. If you want to hide currency, you can set `currencyHidden=true` parameter.
+```hbs
+{{format-money (hash amount=1000 currency='USD') currencyHidden=true }}
+```
 
 You can import `formatMoneyAmountByCurrency` function and use it by passing `amount`, `currencyValue` and `currencyHidden` parameters.
 ```js
