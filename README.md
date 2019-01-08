@@ -2,6 +2,7 @@ ember-currencies-and-format-money
 ==============================================================================
 
 [![npm version](https://badge.fury.io/js/ember-currencies-and-format-money.svg)](https://badge.fury.io/js/ember-currencies-and-format-money.svg)
+[![downloads](https://img.shields.io/npm/dm/ember-currencies-and-format-money.svg?style=flat-square)](https://img.shields.io/npm/dm/ember-currencies-and-format-money.svg?style=flat-square)
 [![Build Status](https://travis-ci.org/ahmetemrekilinc/ember-currencies.svg?branch=master)](https://travis-ci.org/ahmetemrekilinc/ember-currencies.svg?branch=master)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-currencies-and-format-money.svg)](https://emberobserver.com/badges/ember-currencies-and-format-money.svg)
 [![Dependency Status](https://david-dm.org/ahmetemrekilinc/ember-currencies.svg)](https://david-dm.org/ahmetemrekilinc/ember-currencies.svg)
