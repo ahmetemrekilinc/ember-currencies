@@ -42,6 +42,8 @@ let result = formatMoneyAmountByCurrency(amount, currencyValue, currencyHidden);
 console.log(result); // $15.50
 ```
 
+Checkout live examples at [ember-currencies-and-format-money demo page](https://ahmetemrekilinc.github.io/ember-currencies-and-format-money-demo/)
+
 License
 ------------------------------------------------------------------------------
 
