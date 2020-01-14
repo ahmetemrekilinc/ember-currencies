@@ -70,7 +70,7 @@ module.exports = async function() {
         }
       },
       {
-        name: 'ember-octane',
+        name: 'ember-classic',
         env: {
           EMBER_OPTIONAL_FEATURES: JSON.stringify({
             'application-template-wrapper': false,
@@ -79,7 +79,7 @@ module.exports = async function() {
           })
         },
         ember: {
-          edition: 'octane'
+          edition: 'classic'
         }
       }
     ]
