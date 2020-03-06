@@ -17,9 +17,10 @@ let IRR = {name: 'rial', acronym: 'IRR',  symbol: '﷼', digitSeparator: ',', de
 let CNY = {name: 'yuan', acronym: 'CNY',  symbol: 'C¥', digitSeparator: ',', decimalSeparator: '.', currencyPlacement: 'p', smallestUnitRatio: 100};
 let PKR = {name: 'rupee', acronym: 'PKR',  symbol: '₨', digitSeparator: ',', decimalSeparator: '.', currencyPlacement: 'p', smallestUnitRatio: 100};
 let JPY = {name: 'yen', acronym: 'JPY',  symbol: 'J¥', digitSeparator: ',', decimalSeparator: '.', currencyPlacement: 'p', smallestUnitRatio: 100};
+let IDR = {name: 'rupiah', acronym: 'IDR',  symbol: 'Rp', digitSeparator: '.', decimalSeparator: ',', currencyPlacement: 'p', smallestUnitRatio: 1};
 
 let currenciesObject = {TRY: TRY, USD: USD, AUD: AUD, DKK: DKK, EUR: EUR, GBP: GBP, CHF: CHF, SEK: SEK, CAD: CAD, KWD: KWD,
-  NOK: NOK, SAR: SAR, BGN: BGN, RON: RON, RUB: RUB, IRR: IRR, CNY: CNY, PKR: PKR, JPY: JPY};
+  NOK: NOK, SAR: SAR, BGN: BGN, RON: RON, RUB: RUB, IRR: IRR, CNY: CNY, PKR: PKR, JPY: JPY, IDR: IDR};
 
 let currenciesArray = Object.keys(currenciesObject).map(function(k) { return currenciesObject[k]; });
 
